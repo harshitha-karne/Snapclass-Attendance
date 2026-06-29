@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Harshitha.karne\Desktop\snapclass\venv"
+VIRTUAL_ENV="C:\Users\Harshitha.karne\Desktop\ML projects\snapclass\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
