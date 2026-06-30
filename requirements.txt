@@ -1,3 +1,6 @@
+#frontend
+streamlit
+
 # utilitites
 numpy
 pandas
@@ -23,8 +26,6 @@ segno
 # preprocessing
 pillow
 
-#frontend
-streamlit
 
 librosa
 resemblyzer
