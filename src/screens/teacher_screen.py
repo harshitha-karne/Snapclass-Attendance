@@ -272,18 +272,18 @@ def teacher_tab_attendance_records():
      st.dataframe(display_df, width='stretch', hide_index=True)
 
 
-     def login_teacher(username,password):
-          if not username or not password:
-               return False
-          
-          teacher=teacher_login(username,password)
+def login_teacher(username,password):
+     if not username or not password:
+          return False
+     
+     teacher=teacher_login(username,password)
 
-          if teacher:
-               st.session_state.user_role='teacher'
-               st.session_state.teacher_data=teacher
-               st.session_state.is_logged_in=True
+     if teacher:
+          st.session_state.user_role='teacher'
+          st.session_state.teacher_data=teacher
+          st.session_state.is_logged_in=True
 
-               return True
+          return True
      
 
 
